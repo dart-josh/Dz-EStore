@@ -1,0 +1,21 @@
+{
+  "name": "dz-estore",
+  "version": "1.0.0",
+  "description": "Dz EStore online server & Database",
+  "main": "backend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dart-josh/Dz-EStore.git"
+  },
+  "author": "Dart-Josh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dart-josh/Dz-EStore/issues"
+  },
+  "homepage": "https://github.com/dart-josh/Dz-EStore#readme"
+}
