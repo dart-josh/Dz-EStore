@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dart-josh/Dz-EStore/issues"
   },
-  "homepage": "https://github.com/dart-josh/Dz-EStore#readme"
+  "homepage": "https://github.com/dart-josh/Dz-EStore#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
