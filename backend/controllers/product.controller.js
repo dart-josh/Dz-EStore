@@ -1,5 +1,4 @@
 import Product from "../models/product.model.js";
-
 import { redis } from "../lib/redis.js";
 
 // get all available products
