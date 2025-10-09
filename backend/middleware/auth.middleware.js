@@ -31,6 +31,6 @@ export const adminRoute = (req, res, next) => {
 	if (req.user && req.user.userRole === 'admin') {
 		next();
 	} else {
-		return res.status(403).json({ message: "Access denied - Admin only" })
+		return res.status(403).js-on({ message: "Access denied - Admin only" })
 	}
 }

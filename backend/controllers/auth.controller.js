@@ -147,7 +147,7 @@ export const getAuthUser = async (req, res) => {
     console.log("Error in checkAuth ", error);
     res.status(400).json({ success: false, message: error.message });
   }
-};
+}; 
 
 export const forgotPassword = async (req, res) => {
   const { email } = req.body;
