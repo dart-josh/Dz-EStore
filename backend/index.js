@@ -8,6 +8,7 @@ import managerRoute from "./routes/manager.route.js";
 import productRoute from "./routes/product.route.js";
 import storeRoute from "./routes/store.route.js";
 import userRoute from "./routes/user.route.js";
+import { connectDB } from "./lib/connectDB.js";
 
 dotenv.config();
 
@@ -26,4 +27,5 @@ app.use("/api/user", userRoute)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
+    connectDB()
 }) 

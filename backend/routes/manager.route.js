@@ -20,7 +20,7 @@ import {
   revokePayment,
   toggleFeaturedProduct,
   updateOrderStatus,
-} from "../controllers/manager.controller";
+} from "../controllers/manager.controller.js";
 
 const router = express.Router();
 
